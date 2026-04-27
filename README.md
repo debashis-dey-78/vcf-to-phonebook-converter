@@ -47,13 +47,14 @@ If you prefer to run the raw Python scripts instead of using the `.exe`, or if y
    ```bash
    git clone https://github.com/debashis-dey-78/vcf-to-phonebook-converter.git
    ```
-2. Navigate into the script directory:
+2. Navigate into the main project directory and install dependencies:
    ```bash
-   cd "vcf-to-phonebook-converter/vcf to multiformat contact converter python files"
-   ```
-3. Install the required Python dependencies:
-   ```bash
+   cd vcf-to-phonebook-converter
    pip install -r requirements.txt
+   ```
+3. Navigate into the python scripts directory:
+   ```bash
+   cd "vcf to multiformat contact converter python files"
    ```
 4. Run the main GUI application:
    ```bash
