@@ -30,8 +30,36 @@ A powerful Windows Desktop Application designed to seamlessly convert raw `.vcf`
 
 ---
 
-## 💻 For Developers
+## ⚙️ System Requirements & Setup
 
-If you prefer to run the raw scripts manually, all the backend Python generation engines are available in the `vcf to multiformat contact converter python files/` directory.
+### For Standard Users (Recommended)
+**No installation or prerequisites are required!** 
+Because the app is bundled as a standalone executable, you only need:
+- **OS:** Windows 10 or Windows 11
+- **Setup:** None. Simply download the `.exe` from the link above and double-click it to run.
+
+### For Developers (Running from Source)
+If you prefer to run the raw Python scripts instead of using the `.exe`, or if you are on macOS/Linux, you must meet the following prerequisites:
+- **Python:** Python 3.8 or newer installed on your system.
+
+**Developer Setup Process:**
+1. Clone the repository to your local machine:
+   ```bash
+   git clone https://github.com/debashis-dey-78/vcf-to-phonebook-converter.git
+   ```
+2. Navigate into the script directory:
+   ```bash
+   cd "vcf-to-phonebook-converter/vcf to multiformat contact converter python files"
+   ```
+3. Install the required Python dependencies:
+   ```bash
+   pip install python-docx fpdf2 openpyxl
+   ```
+4. Run the main GUI application:
+   ```bash
+   python app.py
+   ```
+
+---
 
 For full technical specifications and development history, please see the [App Documentation](App_Documentation.md).
