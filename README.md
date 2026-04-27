@@ -53,7 +53,7 @@ If you prefer to run the raw Python scripts instead of using the `.exe`, or if y
    ```
 3. Install the required Python dependencies:
    ```bash
-   pip install python-docx fpdf2 openpyxl
+   pip install -r requirements.txt
    ```
 4. Run the main GUI application:
    ```bash
