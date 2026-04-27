@@ -1,0 +1,10 @@
+# Python virtual environment
+.venv/
+__pycache__/
+
+# PyInstaller build temp files
+build/
+
+# Ignore personal contact files and generated outputs to protect privacy!
+*.vcf
+contacts output/
